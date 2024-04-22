@@ -1,4 +1,4 @@
-namespace WorkflowDesigner {
+declare namespace WorkflowDesigner {
     export interface Options {
         showGrid?: boolean;
         gridSize?: number;
