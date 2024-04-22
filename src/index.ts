@@ -1,4 +1,4 @@
-import { Workflow, WorkflowDesigner } from '../types';
+import { Workflow, WorkflowDesigner } from '../types/index';
 
 export function FsmWorkflowDesigner(canvasId: string, options?: WorkflowDesigner.Options) {
     const canvas = document.getElementById(canvasId) as HTMLCanvasElement;
